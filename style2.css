@@ -1,0 +1,30 @@
+.dishes {
+  list-style: none;
+  padding: 0;
+  text-align: flex;
+  display: flex;
+  font-size: 60px;
+  justify-content: space-around;
+  max-width: 300px;
+}
+.dishes a {
+ text-decoration: none;
+ color: rgb(110, 110, 110);
+ font-weight: bold;
+
+}
+.dishes li span{
+ color: black;
+}
+
+.dishes li a {
+ color: green;
+transition: color 300ms;
+}
+
+.dishes li .unique {
+ color: #000;
+}
+.dishes li a:hover {
+ color: rgb(176, 115, 0);
+}

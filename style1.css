@@ -1,0 +1,88 @@
+body{
+ margin: 0;
+ padding: 0;
+ text-align: center;
+ font-family: "Roboto", sans-serif";
+ color:#222;
+ background: #f7f5f0;
+}
+
+.dishes {
+  list-style: none;
+  padding: 0;
+  text-align: flex;
+  display: flex;
+  font-size: 60px;
+  justify-content: space-around;
+  max-width: 300px;
+}
+.dishes a {
+ text-decoration: none;
+ color: rgb(110, 110, 110);
+ font-weight: bold;
+
+}
+.dishes li span
+ color: black;
+}
+
+.dishes li a {
+ color: green;
+transition: color 300ms;
+}
+
+.dishes li .unique {
+ color: #000;
+}
+.dishes li a:hover {
+ color: rgb(176, 115, 0);
+}
+
+a{
+ text-decoration: none;
+ color:#999;
+
+}
+a:hover{
+color:#6633ff;
+}
+header {
+  text-align: center;
+  background: url('thailand.jpeg') no-repeat ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+  height: 800px;
+}
+header {
+  line-height: 1.5;
+}
+header .profile-image {
+  margin-top: 50px;
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  border: 3px solid black;
+  transition: all .5s;
+}
+.tag {
+  background-color: #222;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 20px auto;
+} 
+.course {
+ background-color: #222;
+  color: white;
+}
+a.social {
+  display: inline-block;
+  text-indent: 100px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .4;
+  transition: all .5s;
